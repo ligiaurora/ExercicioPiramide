@@ -2,9 +2,9 @@ package piramide;
 
 public class Piramide {
 
-	float h, ab;
-	double al, ATriangulo, bt, inter, at, litrosP, precoL, qtdLatas, vol;
-	int tinta;
+	private float h, ab;
+	private double al, ATriangulo, bt, inter, at, litrosP, precoL, qtdLatas, vol;
+	private int tinta;
 	
 	public float getH() {
 		return h;
