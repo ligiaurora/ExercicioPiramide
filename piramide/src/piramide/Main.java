@@ -32,23 +32,6 @@ public class Main {
 		
 		entrada.close();		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
