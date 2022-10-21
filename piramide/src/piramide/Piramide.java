@@ -65,4 +65,34 @@ public class Piramide {
 		return vol = (Math.pow(ab,2) * h) / 3;	
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Piramide [h=");
+		builder.append(h);
+		builder.append(", ab=");
+		builder.append(ab);
+		builder.append(", al=");
+		builder.append(al);
+		builder.append(", ATriangulo=");
+		builder.append(ATriangulo);
+		builder.append(", bt=");
+		builder.append(bt);
+		builder.append(", inter=");
+		builder.append(inter);
+		builder.append(", at=");
+		builder.append(at);
+		builder.append(", litrosP=");
+		builder.append(litrosP);
+		builder.append(", precoL=");
+		builder.append(precoL);
+		builder.append(", qtdLatas=");
+		builder.append(qtdLatas);
+		builder.append(", vol=");
+		builder.append(vol);
+		builder.append(", tinta=");
+		builder.append(tinta);
+		builder.append("]");
+		return builder.toString();
+	}
 }
